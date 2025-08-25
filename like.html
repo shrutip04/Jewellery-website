@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cart</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .body{
+            background-color: #f8d0cf;
+        }
+        .wrapper{
+        width:1000px;
+        margin: 0 auto;
+        }
+        .wrapper h1{
+        padding: 30px 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #e843b78a;
+        }
+        .project{
+        display: flex;
+        }
+        .shop{
+        flex: 75%;
+        }
+        .box{
+        display: flex;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        background: #ffe4e4;
+        transition: all .6s ease;
+        box-shadow: rgba(100, 100, 111, 0.2) 7px 29px 0;
+        }
+        .box:hover{
+        transform: scale(1.02);
+        }
+        .box img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        }
+        .content{
+        padding: 20px;
+        position: relative;
+        width: 100%;
+        }
+        .content h3{
+        margin-bottom: 30px;
+        }
+        .content h4{
+        margin-bottom: 50px;
+        }
+        .btn-area{
+        position: absolute;
+        bottom: 20px;
+        right: 2px;
+        padding: 10px 25px;
+        background-color: #3a71a9;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 600;
+        }
+        .btn-area:hover{
+        background-color: #b6cbff;
+        color: #3a71a9;
+        }
+        .unit input{
+        width: 50px;
+        padding: 8px;
+        text-align: center;
+        }
+        .btn-area i{
+        margin-right: 5PX;
+        }
+        
+    </style>
+
+    <body>
+        <div class="wrapper">
+            <h1>Your Liked items</h1>
+            <div class="project">
+                <div class="shop">
+                    <div class="box">
+                        <img src="C:\Users\Shruti\OneDrive\Desktop\PRO\images2\img7.jpg" alt="img not found">
+                        <div class="content">
+                            <h3>Gold Bracelet</h3>
+                            <h4>Price: ₹4000 </h4>
+                            <p class="unit">Quantity: <input value="1"></p>
+                            <p class="btn-area">
+                                <i class="fa fa-trash"></i>
+                                <span class="btn2">Remove</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="C:\Users\Shruti\OneDrive\Desktop\PRO\images2\img2.jpg" alt="img not found">
+                        <div class="content">
+                            <h3>Diamond Necklace set</h3>
+                            <h4>Price: ₹5000 </h4>
+                            <p class="unit">Quantity: <input value="1"></p>
+                            <p class="btn-area">
+                                <i class="fa fa-trash"></i>
+                                <span class="btn2">Remove</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="C:\Users\Shruti\OneDrive\Desktop\PRO\images2\img3.jpg" alt="img not found">
+                        <div class="content">
+                            <h3>Rose Gold Earrings</h3>
+                            <h4>Price: ₹1000 </h4>
+                            <p class="unit">Quantity: <input value="1"></p>
+                            <p class="btn-area">
+                                <i class="fa fa-trash"></i>
+                                <span class="btn2">Remove</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        </body>
+        </html>
